@@ -1,0 +1,10 @@
+name: vn-frontend-project # <--- Уникальное имя!
+
+services:
+    web:
+        build: .
+        container_name: vn_frontend
+        restart: always
+        ports:
+            # Слева порт хоста (4014), Справа порт внутри (80)
+            - "127.0.0.1:4014:80"

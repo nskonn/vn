@@ -1,0 +1,5 @@
+{
+  "name": "Webzella Planner",
+  "description": "A modern, lightweight MVP task planner inspired by Jira. Features project management, Kanban boards, and task tracking using a clean UI.",
+  "requestFramePermissions": []
+}
