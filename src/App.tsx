@@ -19,11 +19,6 @@ const App = () => {
                 </div>
             </div>
 
-            {/* Top Right: Status */}
-            <div className="absolute top-8 right-6 md:top-14 md:right-12 text-xs font-mono uppercase tracking-widest text-stone-400">
-                Статус: РАЗРАБОТКА
-            </div>
-
             {/* Center Content */}
             <main className="flex flex-col items-center text-center w-full max-w-2xl mt-20 md:mt-0">
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-black tracking-tighter leading-[0.9] mb-8 uppercase text-stone-900">
@@ -57,11 +52,6 @@ const App = () => {
                     </div>
                 </div>
             </main>
-
-            {/* Bottom Left: Info */}
-            <div className="absolute bottom-6 left-6 md:bottom-12 md:left-12 text-[10px] font-mono uppercase tracking-widest text-stone-300">
-                [ v1.0.0-beta ]
-            </div>
 
             {/* Bottom Right: Developer Info */}
             <div className="absolute bottom-6 right-6 md:bottom-12 md:right-12 text-right">
