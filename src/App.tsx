@@ -49,7 +49,7 @@ const App = () => {
                             <Send size={18} /> Telegram
                         </a>
                         <a
-                            href="mailto:exegetik@yandex.ru"
+                            href="mailto:exegetik@gmail.com"
                             className="flex items-center justify-center gap-2 px-8 py-4 border border-stone-300 hover:border-stone-900 hover:bg-stone-900 hover:text-white transition-all font-bold text-sm uppercase tracking-widest"
                         >
                             <Mail size={18} /> Email
