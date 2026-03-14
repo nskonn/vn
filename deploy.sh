@@ -2,9 +2,9 @@
 set -e
 
 # Путь, куда клонируется проект
-PROJECT_DIR="/srv/vn.webzella.ru"
+PROJECT_DIR="/home/frontend/exegetik.ru"
 
-echo "🚀 Начало деплоя для vn.webzella.ru..."
+echo "🚀 Начало деплоя для $PROJECT_DIR..."
 
 # Проверка существования директории
 if [ ! -d "$PROJECT_DIR" ]; then
